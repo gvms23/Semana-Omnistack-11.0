@@ -1,0 +1,35 @@
+---------------------------
+npm i qualquerCoisa -D
+-D = instalar apenas nas dependências de dev.
+
+---------------------------
+Rota: /api/usuarios -> caminho inteiro
+Recurso: /api/usuarios -> 'usuarios'
+
+---------------------------
+Tipos de Params:
+
+Query Params: Parâmetros nomeados enviados na rota usando ? e &, ex: /usuarios?nome=Gabriel&idade=23
+Route Params: Parâmetros utilizados para identificar recursos, ex: /usuarios/1, buscando usuário com o id 1.
+Request Body: Corpo da Request, usado para criação, alteração de recursos (POST, PUT)
+
+---------------------------
+Métodos HTTP
+GET: Obter recursos
+POST: Criar recursos
+PUT: Alterar recursos
+DELETE: Excluir recursos
+
+---------------------------
+
+Tipos de BDs:
+SQL: MySQL, PostgreSQL, Oracle, Microsoft SQL Server
+NoSQL: MongoDB, CouchDB etc.
+
+---------------------------
+2 Formas de conexão com BDs
+Driver: Interpreta plain text: SELECT * FROM Users
+Query Builder: Interpreta JS: table('users').select('*').where(...)
+    -Knex: http://knexjs.org/
+
+npx knex init cria o arquivo de configurações do Knex.
