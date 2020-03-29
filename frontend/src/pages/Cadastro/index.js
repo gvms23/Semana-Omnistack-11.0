@@ -7,15 +7,15 @@ import '../../global.css';
 
 import logoImg  from '../../assets/logo.svg';
 
-export default function Register(){
+export default function Cadastro(){
     return (
-     <div className="register-container">
+     <div className="cadastro-container">
          <div className="content">
              <section>
                 <img src={logoImg} alt="Be the Hero"/>
 
                 <h1>Cadastro</h1>
-                <p>Faça se ucadastro, entre na plataforma e ajude pessoas a encontrarem os casos de suas ONGs.</p>
+                <p>Faça seu cadastro, entre na plataforma e ajude pessoas a encontrarem os casos de suas ONGs.</p>
              
                 <Link className="back-link" to="/">
                     <FiArrowLeft size={16} color="#E02041" />
