@@ -53,13 +53,14 @@
 }
 
 .perfil-container ul li {
-    background: #fff !important;
+    background: #fff;
     padding: 24px;
     border-radius: 8px;
     position: relative;
 }
 
 .perfil-container ul li button {
+    background: #fff;
     position: absolute;
     right: 24px;
     top: 24px;
